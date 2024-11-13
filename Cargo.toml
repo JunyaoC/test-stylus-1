@@ -4,14 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-stylus-sdk = "0.5.0"
+stylus-sdk = "0.5.2"
 hex = "0.4"
 sha2 = "0.10"
 base64 = "0.21"
 ciborium = "0.2"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-thiserror = "1.0"
 
 [features]
 export-abi = ["stylus-sdk/export-abi"]
